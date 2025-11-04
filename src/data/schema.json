@@ -1,0 +1,20 @@
+[
+  {"name":"txn_id","type":"STRING","mode":"REQUIRED"},
+  {"name":"user_id","type":"STRING","mode":"REQUIRED"},
+  {"name":"timestamp","type":"TIMESTAMP","mode":"REQUIRED"},
+  {"name":"amount","type":"FLOAT","mode":"REQUIRED"},
+  {"name":"currency","type":"STRING"},
+  {"name":"direction","type":"STRING"},
+  {"name":"recipient_id","type":"STRING"},
+  {"name":"recipient_type","type":"STRING"},
+  {"name":"merchant_category","type":"STRING"},
+  {"name":"origin_geo","type":"STRING"},
+  {"name":"dest_geo","type":"STRING"},
+  {"name":"channel","type":"STRING"},
+  {"name":"device_trust_score","type":"FLOAT"},
+  {"name":"is_new_recipient","type":"INTEGER"},
+  {"name":"daily_txn_count_user","type":"INTEGER"},
+  {"name":"daily_txn_amount_user","type":"FLOAT"},
+  {"name":"label_is_anomaly","type":"INTEGER"},
+  {"name":"anomaly_type","type":"STRING"}
+]
