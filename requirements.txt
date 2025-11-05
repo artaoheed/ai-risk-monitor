@@ -1,8 +1,24 @@
-pandas==2.2.2
-numpy==1.26.4
-scikit-learn==1.5.1
-joblib==1.4.2
-pydantic==2.9.2
-python-dotenv==1.0.1
-streamlit==1.38.0
-pyyaml==6.0.2
+# Core
+pandas
+numpy
+scikit-learn
+joblib
+
+# API layer
+fastapi
+uvicorn[standard]
+
+# Cloud
+google-cloud-storage
+google-cloud-bigquery
+pandas-gbq
+
+# LLM (if Gemini)
+google-generativeai
+
+# Dashboard (if Streamlit)
+streamlit
+
+# Optional
+python-dotenv
+loguru

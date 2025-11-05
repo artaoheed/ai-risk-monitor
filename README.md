@@ -103,4 +103,4 @@ ai-risk-monitor/
 
 ---
 
-**Author:** Your Name (@handle) • MIT License
+**Author:** Taoheed @artaoheed • MIT License
